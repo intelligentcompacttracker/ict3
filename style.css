@@ -37,48 +37,52 @@ header {
 }
 /* Features Section */
 /* Features Section */
-#features {
-    padding: 60px 20px;
-    background-color: #fff;
+/* Container styling */
+#blogs {
+    background-color: #f5f5f5;
+    padding: 40px 20px;
+    font-family: Arial, sans-serif;
+}
+
+.blogs-container {
+    max-width: 800px;
+    margin: 0 auto;
     text-align: center;
 }
 
-.features-container {
-    max-width: 1200px;
-    margin: 0 auto;
+#blogs h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
 }
 
-.features-container h2 {
-    font-size: 2.5em;
-    margin-bottom: 40px;
-    color: #000000;
-    font-weight: bold;
-}
-
-.feature-item {
-    background-color: #f8f8f8;
+/* Blog item styling */
+.blog-item {
+    background-color: #fff;
     padding: 20px;
     margin: 20px 0;
     border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
 }
 
-.feature-item:hover {
-    transform: translateY(-5px);
-    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.2);
+.blog-item h3 {
+    color: #0073e6;
+    font-size: 1.5em;
+    margin-bottom: 10px;
 }
 
-.feature-item h3 {
-    font-size: 1.8em;
-    color: #333;
-    margin-bottom: 15px;
-}
-
-.feature-item p {
-    font-size: 1.1em;
-    color: #666;
+.blog-item p {
+    font-size: 1em;
+    color: #555;
     line-height: 1.6;
+}
+
+/* Add hover effect */
+.blog-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    transition: all 0.3s ease;
 }
 
 /* Responsive for Features Section */
